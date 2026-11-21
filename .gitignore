@@ -1,0 +1,38 @@
+# Dependencies and builds
+node_modules/
+.expo/
+dist/
+dist.zip
+web-build/
+/ios/
+/android/
+.vercel/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.jks
+*.p8
+*.p12
+*.mobileprovision
+
+# Generated / temporary
+supabase/.temp/
+__pycache__/
+*.pyc
+*.tsx.youtube-backup
+*.tsbuildinfo
+.metro-health-check*
+.kotlin/
+*.orig.*
+.DS_Store
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+*.log
+expo-env.d.ts
+# Local archives
+*.zip

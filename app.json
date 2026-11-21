@@ -1,0 +1,59 @@
+{
+  "expo": {
+    "name": "Misiunea Bucovina",
+    "slug": "misiunea-bucovina",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/app-icon.png",
+    "scheme": "misiuneabucovina",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "org.misiuneabucovina.app",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "package": "org.misiuneabucovina.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#FFFFFF",
+        "foregroundImage": "./assets/app-icon.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "output": "static",
+      "favicon": "./assets/app-icon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#FFFFFF",
+          "image": "./assets/brand-logo.png",
+          "imageWidth": 180
+        }
+      ],
+      "expo-asset",
+      "expo-notifications",
+      "expo-sharing",
+      "expo-image",
+      "expo-web-browser",
+      "@react-native-community/datetimepicker",
+      "expo-status-bar"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "b463768c-cc80-4dc1-ab83-3a48512e0f1b"
+      }
+    },
+    "owner": "andrei-22"
+  }
+}

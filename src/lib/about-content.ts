@@ -1,0 +1,41 @@
+export type TimelineEvent = { year: string; month: string; title: string; detail?: string };
+export type AboutContent = { heroImage: string; missionImage: string; heroTitle: string; motto: string; intro: string; principleOne: string; principleTwo: string; storyQuote: string; storyQuoteAuthor: string; creedIntro: string; creed: string; origin: string; story: string; missionAreas: string; trademark: string; trademarkLink: string; danielImage: string; emanuelImage: string; timeline: TimelineEvent[] };
+export const defaultAbout: AboutContent = {
+ missionImage: '',
+ heroImage: 'https://misiuneabucovina.org/wp-content/uploads/2026/03/IMG_8363-scaled.jpg',
+ heroTitle: 'Oameni pentru oameni, mâini pentru mâini și inimi pentru inimi.',
+ motto: 'Ajutând în Numele lui Hristos!',
+ intro: 'Asociația Misiunea Bucovina este o organizație creștină non-profit dedicată slujirii umanitare și spirituale. Credința, demnitatea și responsabilitatea față de aproapele nostru devin fapte.',
+ principleOne: 'Promovarea valorilor moral-creștine în societatea contemporană.',
+ principleTwo: 'Ca Numele lui Dumnezeu să fie mare în inimi și între națiuni — Maleahi 1:11.',
+ storyQuote: 'Știam că Dumnezeu vrea să se folosească de mine și să inițieze o lucrare pentru oameni. Inima mea, profețiile primite, evenimentele din jurul meu, toate păreau să-mi șoptească: Dumnezeu are planuri frumoase, urmează-le cu credincioșie. Aveam discuții lungi cu vărul meu Andrei, în casa bunicului. El credea în această viziune, de a ajunge cu dragostea lui Hristos cât mai departe în lume. Ne încurajam des cu cuvintele Apostolului Pavel: «Voi sunteți ambasadorii lui Dumnezeu pe pământ.»',
+ storyQuoteAuthor: 'Daniel Ursachi, Fondator',
+ creedIntro: 'Credința în Dumnezeu, în Isus Hristos și în Duhul Sfânt stă la baza lucrării noastre.',
+ creed: `Cred într-unul Dumnezeu, Tatăl Atotțiitorul,\nFăcătorul cerului și al pământului,\nvăzutelor tuturor și nevăzutelor.\n\nCred într-unul Domn Isus Hristos,\nFiul lui Dumnezeu, Unul-Născut,\nCare din Tatăl S-a născut mai înainte de toți vecii.\nLumină din Lumină, Dumnezeu adevărat din Dumnezeu adevărat,\nNăscut, nu făcut, Cel de o ființă cu Tatăl,\nprin Care toate s-au făcut.\nCare pentru noi oamenii și pentru a noastră mântuire\nS-a pogorât din ceruri și S-a întrupat de la Duhul Sfânt\ndin Maria Fecioara și S-a făcut om.\nȘi S-a răstignit pentru noi în zilele lui Ponțiu Pilat,\na pătimit și S-a îngropat.\nȘi a înviat a treia zi, după Scripturi,\nși S-a înălțat la ceruri și șade de-a dreapta Tatălui.\nȘi iarăși va veni cu slavă, să judece viii și morții,\na Cărui Împărăție nu va avea sfârșit.\n\nCred în Duhul Sfânt, Domnul de viață Făcătorul,\nCare de la Tatăl purcede,\nCel ce împreună cu Tatăl și cu Fiul este închinat și slăvit,\nCare a grăit prin proroci.\nCred într-una sfântă, universală și apostolică Biserică.\nMărturisesc un botez spre iertarea păcatelor.\nAștept învierea morților și viața veacului care va să fie.\nAmin!`,
+ origin: 'Numele organizației este inspirat din regiunea istorică Bucovina, cunoscută înainte de anul 1775 sub denumirea de „Țara de Sus”. Pentru noi, această denumire nu este doar una geografică, ci și o chemare: aceea de a-i ajuta pe oameni să iasă din amarul și povara sărăciei, din robia adicțiilor și din rănile care le apasă viața. Cu sediul principal în Vicovu de Sus și puncte de depozitare în Frătăuții Noi și Volovăț, rămânem aproape de cei aflați în nevoie.',
+ story: 'Misiunea Bucovina a fost fondată în anul 2017 de Daniel Ursachi, fiul misionarului creștin Petrică Ursachi. Viziunea acestei lucrări s-a format într-un moment neașteptat din viața lui Daniel. La vârsta de 19 ani, aflat în izolare din cauza unei boli — oreion — tânărul Daniel a petrecut două săptămâni în reflecție profundă asupra chemării pe care o simțea din partea lui Dumnezeu. Astăzi, Misiunea Bucovina continuă să atingă și să transforme vieți prin compasiune practică, sprijin concret și mesajul neschimbat al Evangheliei.',
+ missionAreas: 'Desfășurăm acțiuni în județele Botoșani, Iași, Vaslui, Neamț, Galați, Bacău și Suceava. Dincolo de granițele României, sprijinim comunități din Republica Moldova și Ucraina, iar prin parteneriate și misiuni punctuale ne implicăm și în regiuni din Africa.',
+ trademark: 'Marca „Misiunea Bucovina” este înregistrată la Oficiul de Stat pentru Invenții și Mărci (OSIM). Clase Nisa: 16, 35, 36, 43, 45.',
+ trademarkLink: 'https://www.osim.ro/',
+ danielImage: 'https://misiuneabucovina.org/wp-content/uploads/2026/07/Daniel-Ursachi-683x1024.jpg',
+ emanuelImage: 'https://misiuneabucovina.org/wp-content/uploads/2026/07/Emanuel-Ursachi-683x1024.jpg',
+ timeline: [
+ {year:'2016',month:'Aprilie',title:'Momentul în care s-a conturat viziunea'},
+ {year:'2016',month:'Iunie',title:'Elaborarea și tipărirea primei broșuri'},
+ {year:'2017',month:'28 Mai',title:'Lansarea canalului de YouTube'},
+ {year:'2018',month:'Ianuarie',title:'Primul turneu de ajutorare și slujire creștină'},
+ {year:'2019',month:'',title:'Primul plan de dezvoltare pentru social media'},
+ {year:'2020',month:'Septembrie',title:'Primul caz preluat și dus la bun sfârșit'},
+ {year:'2020',month:'Octombrie',title:'Lansarea primului proiect: Ghiozdane'},
+ {year:'2020',month:'Decembrie',title:'Pragul de 7.000 de abonați'},
+ {year:'2021',month:'Februarie',title:'Prima căsuță construită și finalizată complet'},
+ {year:'2022',month:'Iunie',title:'Primul microbuz dedicat Misiunii'},
+ {year:'2023',month:'Martie',title:'Cea mai riscantă misiune',detail:'Deplasare pe frontul din Ucraina cu hrană pentru bătrânii izolați de război'},
+ {year:'2023',month:'Mai',title:'Transferarea activității de pe grupul bisericesc pe asociația nou înființată — MB'},
+ {year:'2023',month:'Octombrie',title:'Fondarea proiectului Tocană'},
+ {year:'2023',month:'Noiembrie',title:'Prima văcuță dăruită unei familii'},
+ {year:'2025',month:'Februarie',title:'Primirea butonului YouTube pentru 100.000 de abonați'},
+ {year:'2026',month:'Mai',title:'750 de voluntari înscriși în lucrarea Misiunii Bucovina'},
+ ]
+};
+export function mergeAbout(value: any): AboutContent { return { ...defaultAbout, ...(value && typeof value === 'object' && !Array.isArray(value) ? value : {}), timeline: Array.isArray(value?.timeline) ? value.timeline : defaultAbout.timeline }; }
